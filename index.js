@@ -409,7 +409,7 @@ class snOccupancy {
 	informationService
 	    .setCharacteristic(Characteristic.Manufacturer, "Sleep Number")
 	    .setCharacteristic(Characteristic.Model, "SleepIQ")
-	    .setCharacteristic(Characteristic.SerialNumber, "360");
+	    .setCharacteristic(Characteristic.SerialNumber, "Oc360");
 
 	this.occupancyService
 	    .getCharacteristic(Characteristic.OccupancyDetected)
@@ -467,7 +467,7 @@ class snNumber {
 	informationService
 	    .setCharacteristic(Characteristic.Manufacturer, "Sleep Number")
 	    .setCharacteristic(Characteristic.Model, "SleepIQ")
-	    .setCharacteristic(Characteristic.SerialNumber, "360");
+	    .setCharacteristic(Characteristic.SerialNumber, "Num360");
 
 	this.numberService
 	    .getCharacteristic(Characteristic.Brightness)
@@ -542,7 +542,7 @@ class snFlex {
 	informationService
 	    .setCharacteristic(Characteristic.Manufacturer, "Sleep Number")
 	    .setCharacteristic(Characteristic.Model, "SleepIQ")
-	    .setCharacteristic(Characteristic.SerialNumber, "360");
+	    .setCharacteristic(Characteristic.SerialNumber, "Light360");
 
 	this.foundationHeadService
 	    .getCharacteristic(Characteristic.Brightness)
@@ -608,7 +608,7 @@ class snPrivacy {
 	informationService
 	    .setCharacteristic(Characteristic.Manufacturer, "Sleep Number")
 	    .setCharacteristic(Characteristic.Model, "SleepIQ")
-	    .setCharacteristic(Characteristic.SerialNumber, "360");
+	    .setCharacteristic(Characteristic.SerialNumber, "Priv360");
 
 	this.privacyService
 	    .getCharacteristic(Characteristic.On)
